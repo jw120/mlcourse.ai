@@ -1,0 +1,15 @@
+# Notebooks
+jupyterlab
+# Dataframes
+pandas
+# Graphs
+#bokeh
+#plotly
+# Make graphs in notebooks dynamic
+#ipywidgets
+# Formatting of notebook code
+nb-black
+# Formatting and checking of non-notebook code
+#flake8
+#mypy
+#black
