@@ -3,6 +3,7 @@ jupyterlab
 # Dataframes
 pandas
 # Graphs
+seaborn
 #bokeh
 #plotly
 # Make graphs in notebooks dynamic
