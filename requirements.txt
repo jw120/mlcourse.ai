@@ -1,16 +1,17 @@
 # Notebooks
 jupyterlab
+
 # Dataframes
 pandas
+
 # Graphs
 seaborn
-#bokeh
-#plotly
-# Make graphs in notebooks dynamic
-#ipywidgets
-# Formatting of notebook code
+plotly
+
+# Machine learning
+sklearn
+
+# QA for notebooks
+nbqa
+black
 nb-black
-# Formatting and checking of non-notebook code
-#flake8
-#mypy
-#black

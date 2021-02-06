@@ -6,6 +6,8 @@ To run for the first time (after git clone)
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+jupyter labextension install jupyterlab-plotly
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget
 ```
 
 To activate each time (with a new shell)
@@ -23,6 +25,11 @@ jupyter lab
 Note as of 2021/1 jedi 0.18 is incompatible with ipthon 7.19.0, to make tab-complete possible, work around with
 ```
 pip install jedi==0.17.2
+```
+
+To QA (format with black my notebooks run)
+```
+nbqa black my/
 ```
 
 ----
